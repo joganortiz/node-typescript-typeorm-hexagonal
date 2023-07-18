@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",
+    
+    /* Modules */
+    "module": "commonjs",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": {
+      "@Apps/*" : ["./src/Apps/*"],
+      "@Contexts/*" : ["./src/Contexts/*"],
+      "@Mooc/*" : ["./src/Contexts/Mooc/*"],
+      "@Shared/*" : ["./src/Contexts/Shared/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "outDir": "./build",
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictPropertyInitialization": false,
+
+    /* Completeness */
+    "skipLibCheck": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["./src/**/*", "./tests/**/*"],
+  "exclude": [ "node_modules", "./build" ]
+}
