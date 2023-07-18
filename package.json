@@ -1,0 +1,19 @@
+{
+  "name": "typescript-typeorm-hexagonal",
+  "version": "1.0.0",
+  "description": "project in Node Typescript TypeORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joganortiz/node-typescript-typeorm-hexagonal.git"
+  },
+  "author": "Jogan Ortiz Muñoz and Mauricio Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joganortiz/node-typescript-typeorm-hexagonal/issues"
+  },
+  "homepage": "https://github.com/joganortiz/node-typescript-typeorm-hexagonal#readme"
+}
